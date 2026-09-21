@@ -3,7 +3,7 @@ import axios from "axios";
 const api = axios.create({
   baseURL:
     import.meta.env.VITE_API_URL ||
-    "http://final-prject-deep-dive-zageng.runasp.net",
+    "https://final-prject-deep-dive-zageng.runasp.net",
 
   headers: {
     "Content-Type": "application/json",
